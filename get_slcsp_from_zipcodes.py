@@ -70,6 +70,7 @@ for zipcode, rate_areas in zipcode_rate_areas.items():
 
 
 # Print the results in the order determined in the zips.csv file with 2 digits after the decimal point
+print('zipcode,rate')
 for zipcode in zipcodes_needed:
     slcsp = f'{zipcode_rates[zipcode]:.2f}' if zipcode_rates[zipcode] else ''
     print(f'{zipcode},{slcsp}')

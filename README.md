@@ -2,7 +2,7 @@
 
 This code was written using Python 3.10.10
 
-In order to execute the code from your terminal, you will first need to install Python 3.10. Assuming that is already been installed, you can execute the code by using:
+In order to execute the code from your terminal, you will first need to install Python 3.10. Assuming the correct Python version is installed, navigate to the repo and execute the code by using:
 ```
 python get_slcsp_from_zipcodes.py
 ```
